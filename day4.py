@@ -1,6 +1,5 @@
 from importer import Importer
 import time
-import re
 
 #Start Timer
 start = time.time()
