@@ -29,6 +29,8 @@ def solvep1(input):
                 roll_value += int(values[j+1])
             else:
                 roll_value *= int(values[j+1])
+            if roll_value > target:
+                return False
         #Check if result is target and return True
         if roll_value == target:
             return True
@@ -66,6 +68,8 @@ def solvep2(input):
                 roll_value *= int(values[j+1])
             else:
                 roll_value = int(str(roll_value) + values[j+1])
+            if roll_value > target:
+                return False
         #Check if result is target and return True
         if roll_value == target:
             return True
