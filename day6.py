@@ -104,6 +104,11 @@ print(f"P2 Answer: {len(results_list)}")
 end = time.time()
 print(f"Ran in {end - start}s")
 
+
+
+
+
+
 # #Solve p1
 # while not completed:
 #     arrow_coords, current_dir, positions, completed = make_move_p1(arrow_coords, current_dir, positions, completed)
